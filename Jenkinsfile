@@ -7,7 +7,9 @@ pipeline {
               git branch: 'vp-rem', url: "https://github.com/devopshydclub/vprofile-repo.git"
           }  
         }
-//webhook demo
+/* webhook demo
+        practice */
+        
         stage('Build') {
             steps {
                 sh 'mvn clean install -DskipTests'
