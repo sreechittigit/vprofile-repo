@@ -7,7 +7,7 @@ pipeline {
               git branch: 'vp-rem', url: "https://github.com/devopshydclub/vprofile-repo.git"
           }  
         }
-/* webhook demo
+/* webhook-jenkins  demo
         practice */
         
         stage('Build') {
