@@ -32,7 +32,7 @@ SyslogIdentifier=tomcat-%i
 [Install]
 WantedBy=multi-user.target
 EOT
-
+# added comment
 systemctl daemon-reload
 systemctl start tomcat
 systemctl enable tomcat
